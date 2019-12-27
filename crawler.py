@@ -22,7 +22,7 @@ def getHTML(URL):
 	"""
 	get raw HTML from given URL
 	"""
-	print "downloading from " + URL
+	print "downloading from  + URL "
 	req = urllib2.Request(URL)
 	con = urllib2.urlopen(req)
 	HTML = con.read()
